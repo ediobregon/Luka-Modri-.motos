@@ -1,0 +1,209 @@
+@import url();
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../img/persona-que-conduce-motocicleta-potente_23-2150704855.avif) no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+   
+}
+/* Estilos generales */
+
+h2{
+    padding: 100px 80px 0px;
+}
+/* Contenedor general */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px; /* Ajustado para mejor espaciado */
+}
+
+/* Estilo del header */
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo del menú de navegación */
+#navMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background-color: rgba(68, 68, 68, 0.6); /* Fondo semi-transparente */
+    padding: 10px 20px; /* Ajustado para mejor espaciado */
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    z-index: 999;
+}
+
+/* Estilo de los enlaces del menú de navegación */
+#navMenu a {
+    color: white;
+    text-decoration: none;
+    margin: 20px 40px;
+    position: relative;
+    transition: color 0.6s;
+}
+
+#navMenu a::before {
+    content: "";
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #ff6600;
+    transition: width 0.3s, left 0.3s;
+}
+
+#navMenu a:hover::before {
+    width: 100%;
+    left: 0;
+}
+.acceso{
+    width: 600px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px 30px;
+    margin-top: 70px;
+}
+.acceso h1{
+    font-size: 36px;
+    text-align: center;
+}
+.acceso .input-box{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    margin: 15px 10px 10px;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255, .2);
+    border-radius: 20px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 20px 15px 20px;
+    
+}
+.input-box_mens input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 20px 80px 20px;
+    
+}
+
+.input-box i{
+    position: absolute;
+   
+    right: 10px;
+    margin-top: 3%;
+    transform: translate(-50px);
+    font-size: 20px;
+}
+
+.acceso .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: 15px 0 15px;
+    color: #fff;
+
+
+}
+.remember-forgot label input{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.remember-forgot a{
+    text-decoration: underline;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.acceso .btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.acceso .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+   
+}
+.apes{
+    padding-right: 20%;
+}
+
+.register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1, h2 {
+    margin: 0;
+  }
+  
+ 
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
